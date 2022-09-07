@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+:root {
+--top-red: hsl(0, 78%, 62%);
+--left-cyan: hsl(180, 62%, 55%);
+--bottom-orange: hsl(34, 97%, 64%);
+--right-blue: hsl(212, 86%, 64%);
+--verylight-gray: hsl(0, 0%, 98%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background-color: var(--verylight-gray);
+  min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
