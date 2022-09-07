@@ -21,19 +21,49 @@ body {
   min-height: 100vh;
 }
 
+/* Top Text */
+.top__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.top-header {
+  font-weight: 200;
+  margin-bottom: 15px;
+  color: gray;
+}
 
 
+.bottom-header {
+  margin-bottom: 30px;
+}
+
+.top-container, p {
+  width: 450px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: gray;
+}
+
+/* Top Text End */
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  box-shadow: 10px 10px 19px -10px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+
+#cyan {
+  border-top: 5px solid var(--left-cyan);
+}
 
 
-
-
-
-
-
-
-
-
-
+/* Four Cards */
 
 
 
