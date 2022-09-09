@@ -39,6 +39,8 @@ body {
 
 .bottom-header {
   margin-bottom: 30px;
+  color: rgb(51, 47, 82);
+  opacity: 0.9;
 }
 
 .top-container, p {
@@ -126,9 +128,10 @@ footer {
   margin-top: 100px;
   width: auto;
   font-size: 11px; 
-  text-align: center; }
+  text-align: center; 
+}
 
-  .attribution a { 
+.attribution a { 
     color: hsl(228, 45%, 44%); }
 
 @media (max-width: 991px) {
@@ -146,9 +149,38 @@ footer {
       
   }
 
+  .attribution { 
+    margin-top: 70px;
+    width: auto;
+    font-size: 11px; 
+    text-align: center; 
+  }
+
 }
 
-
+@media (max-width: 480px) {
+  .top-container, p {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    font-size: 1em;
+  }
+  .top-header {
+    font-weight: 200;
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 27px;
+  }
+  
+  
+  .bottom-header {
+    margin-bottom: 30px;
+    font-size: 27px;
+    color: rgb(51, 47, 82);
+    opacity: 0.9;
+  }
+}
 
 
 
